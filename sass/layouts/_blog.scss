@@ -1,0 +1,28 @@
+// BLOG
+.archive-pagination {
+  display: block;
+  margin: 20px auto 30px;
+  padding: 10px;
+  padding-left: 20px;
+  max-width: 500px;
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+// Sidebar
+.sidebar {
+
+  .btn {
+    @include font-size(18);
+  }
+
+  //Patrocinadores
+  #text-2 {
+
+    .text-center {
+      margin-top: 20px;
+    }
+  }
+}

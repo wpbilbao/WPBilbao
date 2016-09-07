@@ -1,0 +1,62 @@
+// SINGLE
+
+.twitter-tweet {
+  width: 100% !important;
+}
+
+.presentacion,
+.video.seccion-single-resumenes,
+.menciones-twitter {
+  margin-bottom: 30px;
+}
+
+.presentacion iframe {
+  min-height: 450px;
+}
+
+
+// Autor
+.miembro-meta {
+  text-align: center;
+
+  .miembro-meta-gravatar {
+    display: inline-block;
+  }
+}
+
+
+// Videos
+.single-videos {
+
+  .entry-content {
+    text-align: center;
+
+    .btn {
+      @include font-size(18);
+    }
+
+    .btn:last-of-type {
+      margin-left: 20px;
+    }
+  }
+
+  .embed-container {
+    margin-bottom: 40px;
+  }
+
+  #featured-custom-post-type-2 {
+
+    .entry {
+      margin-bottom: 10px;
+    }
+
+    .entry-title {
+      @include font-size(18);
+      border-left: 0;
+
+      a {
+        color: $basecolor;
+      }
+    }
+  }
+}

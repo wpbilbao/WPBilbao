@@ -1,0 +1,62 @@
+// HEADER
+
+.site-header {
+
+  .title-area {
+    text-indent: -9999px;
+    padding: 10px 0;
+  }
+
+  .site-title {
+    margin-top: 0;
+
+    a {
+      background: url('https://www.wpbilbao.es/wp-content/themes/wpbilbao/images/comunidad-wordpress-bilbao.png') no-repeat;
+      float: left;
+      min-height: 140px;
+      width: 100%;
+    }
+  }
+
+  .header-widget-area {
+    padding-top: 30px;
+  }
+
+  .widget {
+    @include box-shadow($shadow: 0 2px rgba(0, 0, 0, .05));
+    float: right;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .widget-title {
+    @include box-shadow($shadow: inset 5px 0 rgba(0, 0, 0, .15));
+    @include font-size(24);
+    background: $basecolor;
+    color: $white;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 6px 10px;
+
+    &::before {
+      content: '\f145';
+      display: inline-block;
+      font: normal 30px/1 'dashicons';
+      margin-right: 10px;
+      vertical-align: text-top;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  .textwidget {
+    @include box-shadow($shadow: inset 5px 0 rgba(0, 0, 0, .15));
+    background: $white;
+    padding: 5px 12px;
+
+    a {
+      margin-left: 10px;
+    }
+  }
+}
+
+// END of HEADER

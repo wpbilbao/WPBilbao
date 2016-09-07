@@ -1,0 +1,130 @@
+// PAGES
+
+// Archive
+
+.post-type-archive-videos {
+
+  .entry {
+    min-height: 295px;
+    padding: 20px;
+  }
+
+  .embed-container {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .pagination {
+    border-left: 6px solid $basecolor;
+    display: block;
+    margin: 10px auto 30px;
+    padding: 10px 20px;
+    max-width: 300px;
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+
+// Aportaciones
+
+.page-template-template-cuentas {
+
+  form {
+    text-align: center;
+
+    input {
+      border: 0;
+    }
+  }
+
+  .fa {
+    color: $lightgrey;
+    font-size: 16px;
+    margin-right: 8px;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  .nav-tabs {
+    border: 0;
+    margin: 30px auto 40px;
+    max-width: 185px;
+
+    li {
+
+      &.active {
+
+        a {
+          background-color: $basecolor;
+          border: 0;
+          color: $white;
+        }
+      }
+
+      a {
+        @include font-size(20);
+        border: 0;
+        border-radius: 4px;
+        color: $textcolor;
+        font-weight: 700;
+        margin: 0 5px;
+        padding: 10px 20px;
+
+        &:hover,
+        &:focus {
+          background-color: $basecolor;
+          border: 0;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  tbody {
+    border-bottom: 0;
+
+    .note {
+      @include font-size(14);
+      border-top: 0;
+      text-align: right;
+    }
+  }
+
+  .precio {
+    text-align: right;
+  }
+
+  .gastos {
+
+    .precio {
+      color: $danger;
+    }
+  }
+
+  .ingresos {
+
+    .precio {
+      color: $success;
+    }
+  }
+
+  #total-cuentas {
+    margin-top: 30px;
+
+    span {
+      margin-left: 10px;
+    }
+  }
+}
+
+
+// END of PAGES
