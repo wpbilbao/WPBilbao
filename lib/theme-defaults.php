@@ -6,7 +6,7 @@ load_child_theme_textdomain( 'wpbilbao', apply_filters( 'child_theme_textdomain'
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'WordPress Bilbao', 'wpbilbao' ) );
 define( 'CHILD_THEME_URL', 'https://www.wpbilbao.es' );
-define( 'CHILD_THEME_VERSION', '1.0' );
+define( 'CHILD_THEME_VERSION', '1.0.1' );
 
 // Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
