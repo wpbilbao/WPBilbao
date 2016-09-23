@@ -60,7 +60,7 @@ function wpbilbao_single_resumenes_content() { ?>
 
   <?php if (get_field('resumenes_nombre_imagen_destacada')) : ?>
     <div class="propiedad-imagen-destacada seccion-single-resumenes">
-      <p><strong>Imagen destacada:</strong> <a href="<?php the_field('resumenes_url_imagen_destacada'); ?>" title="Imagen Destacada" target="_blank"><?php the_field('resumenes_nombre_imagen_destacada'); ?></a></p>
+      <p><strong><?php _e( 'Imagen destacada', 'wpbilbao' ); ?>:</strong> <a href="<?php the_field('resumenes_url_imagen_destacada'); ?>" title="<?php _e( 'Imagen Destacada', 'wpbilbao' ); ?>" target="_blank"><?php the_field('resumenes_nombre_imagen_destacada'); ?></a></p>
     </div><!-- .propiedad-imagen-destacada -->
   <?php endif; ?>
 
